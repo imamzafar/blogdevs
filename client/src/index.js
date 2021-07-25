@@ -19,8 +19,8 @@ setInterval(async () => {
 },60 * 1000)
 
 
-axios.defaults.baseURL = 'http://localhost:3001/api';
-// axios.defaults.baseURL = 'https://zany-periodic-fisherman.glitch.me/api';
+// axios.defaults.baseURL = 'http://localhost:3001/api';
+axios.defaults.baseURL = 'https://blogdevs.herokuapp.com/api';
     let userData =  JSON.parse(localStorage.getItem("userData"))
     let token
     if(userData){
